@@ -47,3 +47,33 @@ body{
     bottom:30px;
 
 }
+.overlay{
+    background-color: black;
+    opacity: 0.8;
+    top:0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.popup{
+    top:10%;
+    bottom:10%;
+    left:10%;
+    position: absolute;
+    z-index: 2;
+    background-color:#7e61ab;
+    width: 35%;
+    padding: 15px;
+}
+.popup input{
+    background-color: transparent;
+    border:none;
+    border-bottom:black;
+    width:100%;
+    padding: 5px;
+    margin:20px;
+}
+.pop input::placeholder{
+    color: black;
+}
