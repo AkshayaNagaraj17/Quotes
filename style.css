@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:'poppins',sans-serif;
+}
+.navbar{
+    background-color: #7e61ab;
+    padding: 10px;
+}
+.navbar h1{
+    margin-left: 10px;
+}
+
+.container{
+    background-color: black;
+    color: aliceblue;
+    width:20%;
+    padding:20px;
+    margin:20px;
+    border-radius:10px;
+}
+.container h2{
+    color: #7e61ab;
+}
+.quote p,#btn{
+    margin-top: 10px;;
+}
+#btn{
+    padding: 5px 10px;
+    margin: 5px,20px;
+    background-color: #7e61ab;
+    border: none;
+    color: aliceblue;
+    border-radius: 5px;
+}
+.add-btn{
+    background-color: #7e61ab;
+    color: aliceblue;
+    border-radius: 100%;
+    position: fixed;
+    padding: 15px;
+    font-size: 40px;
+    border: none;
+    right:30px;
+    bottom:30px;
+
+}
