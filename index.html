@@ -14,24 +14,26 @@
     <h1>Quotes"</h1>
 </div>
 <div class="container">
-    <div class="quote">
+    <div  class="quote">
         <h2>Love</h2>
 
         <p>“The real lover is a man who can thrill you by kissing your forehead or smiling into your eyes or just staring into space.” </p>
+        <button onclick= "del(event)" class="delete-button" id="delbtn">delete</button>
     </div>
-
-<button class="delete-button" id="btn">delete</button>
+    
 </div>
-<button class="add-btn" id="add">+
-</button>
+
 <div class="overlay"></div>
 <div class="popup" id="pop">
     <h2>Add Quote</h2>
     <input type="text" placeholder="Quote Title"id="q-title">
-    <textarea name="" id="text" placeholder="Quotes of your thought!"></textarea>
+    <textarea name="" id="quo" placeholder="Quotes of your thought!"></textarea>
     <button class="add-q">Add</button>
     <button class="cancel-q">Cancel</button>
 </div>
+<button class="add-btn" id="add">+
+</button>  
+
     <script src="quote.js"></script>
 </body>
 </html>

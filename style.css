@@ -13,19 +13,24 @@ body{
     margin-left: 10px;
 }
 
-.container{
+.quote{
     background-color: black;
     color: aliceblue;
     width:20%;
     padding:20px;
     margin:20px;
     border-radius:10px;
+    display:inline-block;
+    vertical-align: top;
 }
+
 .container h2{
     color: #7e61ab;
 }
 .quote p,#btn{
-    margin-top: 10px;;
+    color: aliceblue;
+    margin-top: 20px;;
+    
 }
 #btn{
     padding: 5px 10px;
@@ -55,25 +60,45 @@ body{
     width: 100%;
     position: absolute;
     z-index: 1;
+    display:none;
 }
 .popup{
     top:10%;
     bottom:10%;
-    left:10%;
+    left:30%;
     position: absolute;
     z-index: 2;
     background-color:#7e61ab;
-    width: 35%;
+    width: 30%;
     padding: 15px;
+    display:none;
 }
 .popup input{
     background-color: transparent;
     border:none;
-    border-bottom:black;
-    width:100%;
+    border-bottom: solid black 2px;
+    width:90%;
     padding: 5px;
-    margin:20px;
+    margin:5px;
 }
-.pop input::placeholder{
+.popup textarea{
+    background-color: transparent;
+    color:aliceblue;
+    border: solid black 2px;
+    width:90%;
+    height: 20%;
+    padding: 5px;
+    margin:5px;
+}
+.popup input::placeholder{
     color: black;
+}
+.popup textarea::placeholder{
+    color: black;
+}
+.add-q,.cancel-q{
+    margin: 20px;
+    padding:5px;
+    background-color:black;
+    color: aliceblue;
 }
