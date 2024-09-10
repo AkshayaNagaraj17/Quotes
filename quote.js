@@ -40,5 +40,5 @@ add1.addEventListener("click",function()
 var delbtn=document.getElementById("delbtn")
  
 function del(event){
-    event.target.classList.parentElement.remove()
+    event.target.parentElement.remove()
 }

@@ -24,7 +24,7 @@ body{
     vertical-align: top;
 }
 
-.container h2{
+.quote h2{
     color: #7e61ab;
 }
 .quote p,#btn{
@@ -101,4 +101,12 @@ body{
     padding:5px;
     background-color:black;
     color: aliceblue;
+}
+.delete-button{
+    color: #7e61ab;
+    background-color: aliceblue;
+    padding:5px;
+    margin:5px;
+    margin-top: 10px;
+    font-size:medium;
 }
